@@ -1,0 +1,351 @@
+{
+    "intents": [
+        {
+            "tag": "admissions",
+            "patterns": [
+                "How do I apply?",
+                "Admission process?",
+                "How to take admission?",
+                "When are admissions open?",
+                "What's the admission procedure?",
+                "How to get into Thapar?",
+                "Admission requirements"
+            ],
+            "responses": [
+                "You can apply for admissions at TIET through the official portal: https://www.thapar.edu/admissions Admission is based on merit, JEE Main, and 12th-grade scores.",
+                "Admissions typically open in January. The process involves submitting an online application, appearing for counseling if required, and document verification. More details at https://www.thapar.edu/admissions",
+                "For BTech, admission is through JEE Main scores. For other programs, please check the specific requirements at https://www.thapar.edu/admissions"
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "What is the fee structure?",
+                "Fees for BTech?",
+                "MTech fees at TIET?",
+                "How much are the fees?",
+                "Tuition costs",
+                "What's the annual fee?",
+                "Fee details"
+            ],
+            "responses": [
+                "The fee structure varies by program. For the most accurate and updated information, please visit: https://www.thapar.edu/fee-structure",
+                "BTech fees are approximately ₹3.5 lakhs per year. Exact details can be found here: https://www.thapar.edu/fee-structure",
+                "Fee structure depends on the program and category. Please check the official website: https://www.thapar.edu/fee-structure"
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "Which courses are available?",
+                "Available programs at TIET?",
+                "BTech branches?",
+                "MSc programs?",
+                "What degrees are offered?",
+                "List of courses",
+                "Academic programs"
+            ],
+            "responses": [
+                "TIET offers BTech (8 branches), MTech (15+ specializations), MBA, MSc (Physics, Chemistry, Math), MA (English, Economics), and PhD programs.",
+                "You can explore all programs at: https://www.thapar.edu/academics The main BTech branches are CSE, ECE, ME, CE, CHE, and BIOT.",
+                "TIET provides undergraduate, postgraduate, and doctoral programs in Engineering, Sciences, Management, and Humanities. Full list: https://www.thapar.edu/academics"
+            ]
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                "How are the placements at TIET?",
+                "Placement stats?",
+                "Which companies come for placements?",
+                "Career opportunities",
+                "Job prospects",
+                "Placement records",
+                "Highest package"
+            ],
+            "responses": [
+                "TIET has excellent placement records with 90%+ placement rate. Top recruiters include Microsoft, Amazon, Deloitte, Goldman Sachs, and more. Average package is ₹10 LPA.",
+                "Placement details for recent years are available at: https://www.thapar.edu/placements The highest package last year was ₹42 LPA.",
+                "TIET's dedicated placement cell ensures great opportunities. 200+ companies visit campus annually. See more at: https://www.thapar.edu/placements"
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "Are hostels available?",
+                "Hostel facilities?",
+                "Hostel fees at Thapar?",
+                "Is hostel compulsory?",
+                "Accommodation options",
+                "Living on campus",
+                "Hostel rules"
+            ],
+            "responses": [
+                "Yes, TIET provides separate hostel accommodation for boys and girls, equipped with Wi-Fi, mess, and recreational facilities. Hostel fee is approx. ₹1 lakh/year.",
+                "Hostel is optional but recommended. Facilities include 24/7 security, laundry, common rooms, and dining. More info: https://www.thapar.edu/hostels",
+                "TIET has 10+ hostels with various amenities. First-year students get priority. Check details at: https://www.thapar.edu/hostels"
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "Does Thapar have a library?",
+                "Library facilities?",
+                "Can I access online journals?",
+                "Library timings",
+                "Study resources",
+                "Research materials"
+            ],
+            "responses": [
+                "The Nava Nalanda Central Library is open 8AM-12AM daily with 1 lakh+ books and online journals access. Website: https://library.thapar.edu",
+                "TIET's library provides digital resources, study spaces, and research support. Details: https://library.thapar.edu",
+                "Yes, students can access IEEE, Springer, and other e-resources through the library portal: https://library.thapar.edu"
+            ]
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "Tell me about canteens?",
+                "Food options in college?",
+                "Is there a food court at TIET?",
+                "Mess facilities",
+                "Eating on campus",
+                "Cafeteria"
+            ],
+            "responses": [
+                "TIET has multiple canteens and a modern food court offering hygienic North Indian, South Indian, Chinese, and fast food options.",
+                "Campus has 5+ eating places including a 24/7 cafe. The main food court serves meals from ₹50-150. Outside food delivery is also available.",
+                "Food options include hostel mess (optional), food court, and specialty cafes. Menu and timings: https://www.thapar.edu/campus-life"
+            ]
+        },
+        {
+            "tag": "transport",
+            "patterns": [
+                "Is there a bus service?",
+                "Transport facilities?",
+                "How do I reach Thapar?",
+                "Travel to campus",
+                "Local transport",
+                "Nearest airport"
+            ],
+            "responses": [
+                "Local buses and autos are available. The nearest railway station is Patiala (5km). Chandigarh airport is 65km away. Campus map: https://www.thapar.edu/map",
+                "TIET provides shuttle services from Patiala. Many students use Uber/Ola. Detailed directions: https://www.thapar.edu/location",
+                "The nearest major transport hubs are Patiala Railway Station (5km) and Chandigarh Airport (65km). Taxis are easily available."
+            ]
+        },
+        {
+            "tag": "exam",
+            "patterns": [
+                "Exam schedule?",
+                "When are midterms?",
+                "Final exam dates at Thapar?",
+                "Academic calendar",
+                "Test dates",
+                "Exam pattern"
+            ],
+            "responses": [
+                "Midterms are usually in weeks 8-9, finals in week 16-17. Check the academic calendar: https://www.thapar.edu/academic-calendar",
+                "Exam schedules vary by department. The general academic calendar is available at: https://www.thapar.edu/academic-calendar",
+                "TIET follows semester system with mid-semester and end-semester exams. Current schedule: https://www.thapar.edu/academic-calendar"
+            ]
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                "Attendance policy?",
+                "Minimum attendance required?",
+                "What happens if attendance is low?",
+                "Class attendance rules",
+                "75% rule"
+            ],
+            "responses": [
+                "TIET mandates 75% attendance in each course to be eligible for exams. Medical leave can be considered with documentation.",
+                "Yes, 75% attendance is compulsory. Students below this may be debarred from exams. Details in academic regulations: https://www.thapar.edu/academics",
+                "The attendance policy is strict. Students with <75% may need to repeat the course. Check department guidelines for exceptions."
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "Sports facilities?",
+                "What sports are available?",
+                "Are there sports events?",
+                "Gymnasium",
+                "Athletics",
+                "Sports complex"
+            ],
+            "responses": [
+                "TIET has excellent sports facilities including cricket, basketball, football, badminton, tennis, swimming pool, and gym. Annual sports fest is URJA.",
+                "The sports complex includes indoor and outdoor facilities. Equipment can be borrowed. More info: https://www.thapar.edu/sports",
+                "TIET encourages sports with facilities for 20+ games and regular inter-college tournaments. See sports calendar: https://www.thapar.edu/sports"
+            ]
+        },
+        {
+            "tag": "fest",
+            "patterns": [
+                "Fests at Thapar?",
+                "Cultural events?",
+                "Technical fests at TIET?",
+                "College festivals",
+                "Saturnalia",
+                "Aagaaz"
+            ],
+            "responses": [
+                "TIET hosts multiple fests: Saturnalia (Tech fest in March), Aagaaz (Cultural fest in October), and Urja (Sports fest in February).",
+                "Major annual events include Saturnalia (Asia's largest tech fest), Aagaaz cultural fest, and various department events. Details: https://www.thapar.edu/events",
+                "Don't miss Saturnalia - our flagship tech fest with 100+ events, 5000+ participants! More at: https://saturnalia.thapar.edu"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "Contact details?",
+                "How can I contact TIET?",
+                "Phone number for Thapar?",
+                "Email address",
+                "Administration office",
+                "Where is the office?"
+            ],
+            "responses": [
+                "You can call +91-175-2393021 or email info@thapar.edu. For specific departments, check: https://www.thapar.edu/contact",
+                "Main contact: +91-175-2393021, info@thapar.edu. Address: Thapar Institute of Engineering & Technology, Patiala 147004 Punjab, India",
+                "Visit the contact page for department-wise numbers: https://www.thapar.edu/contact Campus map: https://www.thapar.edu/map"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "Good afternoon",
+                "What's up?"
+            ],
+            "responses": [
+                "Hello! Welcome to Thapar Institute Chatbot. How can I assist you today?",
+                "Hi there! I'm here to help with all your Thapar queries. What would you like to know?",
+                "Greetings! Ask me about admissions, courses, campus life, or anything about TIET."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you",
+                "Goodbye",
+                "Talk to you later",
+                "Thanks, bye",
+                "I'm done"
+            ],
+            "responses": [
+                "Goodbye! Feel free to reach out anytime. All the best!",
+                "See you soon! If you have more questions later, I'll be here.",
+                "Have a great day! Best wishes for your Thapar journey."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Appreciate it",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome! Is there anything else I can help with?",
+                "Happy to help! Let me know if you have other questions.",
+                "Glad I could assist. Don't hesitate to ask more about TIET."
+            ]
+        },
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "Scholarships available",
+                "Scholarship criteria",
+                "Is there any scholarship?",
+                "Financial aid",
+                "Merit scholarship",
+                "Fee waiver"
+            ],
+            "responses": [
+                "Yes, scholarships are available based on academic merit and JEE ranks. Check details at https://www.thapar.edu/scholarships",
+                "TIET offers merit scholarships (up to 100% tuition fee waiver) and need-based aid. Application process: https://www.thapar.edu/scholarships",
+                "Various scholarships include Institute Merit Scholarship, SC/ST scholarships, and special category aid. More info: https://www.thapar.edu/scholarships"
+            ]
+        },
+        {
+            "tag": "campus_life",
+            "patterns": [
+                "Tell me about campus life",
+                "What's campus life like?",
+                "Activities on campus",
+                "Student clubs",
+                "Extracurriculars",
+                "College experience"
+            ],
+            "responses": [
+                "TIET offers vibrant campus life with 50+ clubs (technical, cultural, sports), annual fests, and excellent infrastructure. See: https://www.thapar.edu/campus-life",
+                "Beyond academics, students enjoy clubs like Robotics, Dance, Music, Entrepreneurship, and more. Campus tour: https://www.thapar.edu/virtual-tour",
+                "The 250-acre green campus has modern facilities, active student community, and round-the-clock activities. Learn more: https://www.thapar.edu/campus-life"
+            ]
+        },
+        {
+            "tag": "international_programs",
+            "patterns": [
+                "Does Thapar have international programs?",
+                "Study abroad options",
+                "International collaborations",
+                "Exchange programs",
+                "Foreign universities tie-ups"
+            ],
+            "responses": [
+                "Yes! TIET has 100+ international collaborations for student exchange, joint degrees, and research. Partners include universities in USA, Europe, and Australia. Details: https://www.thapar.edu/international",
+                "Students can participate in semester exchanges, summer schools, and joint research through our global partnerships. More info: https://www.thapar.edu/international",
+                "TIET's International Relations Office facilitates exchanges with top universities worldwide. Check opportunities: https://www.thapar.edu/international"
+            ]
+        },
+        {
+            "tag": "research_opportunities",
+            "patterns": [
+                "Research opportunities",
+                "Can I do research at Thapar?",
+                "Research facilities",
+                "Undergraduate research",
+                "Labs and equipment"
+            ],
+            "responses": [
+                "TIET encourages research with 20+ centers of excellence, funded projects, and undergraduate research programs. Explore: https://www.thapar.edu/research",
+                "Yes! Students can join faculty-led research projects. The university has state-of-the-art labs and ₹50+ crore annual research funding. More: https://www.thapar.edu/research",
+                "Research is strong in AI, Renewable Energy, Materials Science, and more. See current projects: https://www.thapar.edu/research"
+            ]
+        },
+        {
+            "tag": "chitchat",
+            "patterns": [
+                "what's up",
+                "how's it going",
+                "what are you doing",
+                "what's going on",
+                "how are you",
+                "what's new"
+            ],
+            "responses": [
+                "Just here to help you with everything related to Thapar!",
+                "All good! Ask me anything about TIET - admissions, campus, courses, or anything else.",
+                "I'm doing great, thank you! What would you like to know about Thapar Institute?"
+            ]
+        },
+        {
+            "tag": "no_match",
+            "patterns": [],
+            "responses": [
+                "I'm not sure I understood that. Could you rephrase? You can ask about admissions, courses, fees, etc.",
+                "Can you clarify your question? I can help with information about Thapar Institute.",
+                "Sorry, I didn't get that. Try asking about:\n- Admissions process\n- Courses offered\n- Campus facilities\n- Placements\n- Or any other Thapar-related query"
+            ]
+        }
+    ]
+}
